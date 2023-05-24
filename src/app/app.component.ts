@@ -36,13 +36,14 @@ export class AppComponent implements OnInit {
     this.api.getDetails()
     .subscribe({
       next:(res)=>{
+        debugger;
         this.dataSource = new MatTableDataSource(res);
-        this.dataSource.paginator = this.paginator;
-        this.dataSource.sort= this.sort;
+        // this.dataSource.paginator = this.paginator;
+        // this.dataSource.sort= this.sort;
         console.log({res})
       },
       error:(err)=>{
-        alert("Error")
+        alert(err);
       }
     })
   }

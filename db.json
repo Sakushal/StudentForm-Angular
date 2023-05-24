@@ -1,10 +1,20 @@
 {
-  "studentDetails": {
+  "studentDetails": [{
     "username": "saku",
     "email": "sakushal@gmail.com",
     "password": "12345",
     "dob": "feb 2",
     "contact": "980000000",
     "address": "usa"
+  },
+  {
+    "username": "sandip",
+    "email": "sakushal@gmail.com",
+    "password": "12345",
+    "dob": "feb 2",
+    "contact": "980000000",
+    "address": "usa"
   }
+
+]
 }
